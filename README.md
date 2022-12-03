@@ -5,18 +5,18 @@ Descrição do Projeto
 
 # :hammer: Funcionalidades do projeto
 
--`1ª`: Pesquisar cidades
--`2ª`: Mostrar informações importantes (Temperatura, clima, umidade e velocidade do vento)
+-`1ª`: Pesquisar cidades |
+-`2ª`: Mostrar informações importantes (Temperatura, clima, umidade e velocidade do vento) |
 -`3º`: Mostrar sugestões de cidades para agilizar a pesquisa
 
 # :technologist: Acesso
-
+Acesse o projeto em: https://clima-agora-dusky.vercel.app/
 
 
 # :computer: Tecnologias usadas
 
-HTML
-CSS
-JavaScript
-API Weather
+HTML |
+CSS |
+JavaScript |
+API OpenWheather |
 
