@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+body{
+    background: linear-gradient(180deg, #594cee 0%, #8dd0f5 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hide{
+    display: none;
+}
+
+.container{
+    max-width: 600px;
+    background-color: #5c54ed;
+    box-shadow: #0000003d 0px 3px 8px;
+    padding: 2rem;
+    color: #fdfdfd;
+    border-radius: 1rem;
+}
+
+.form h3{
+    margin-bottom: 1rem;
+}
+
+.form-input-container{
+    display: flex;
+}
+
+.form input{
+    padding: .8rem;
+    border: none;
+    flex: 1;
+    border-radius: 4px;
+    text-transform: capitalize;
+}
+
+.form button{
+    padding: .8rem;
+    min-width: 50px;
+    margin-left: 8px;
+    background-color: #8dd0f5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* CLima */
+
+#weather-data{
+    border-top: 1px solid #fff;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+#weather-data h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .6rem;
+}
+
+#weather-data h2 i{
+    font-size: 1rem;
+}
+
+#weather-data span{
+    margin: 0.6rem;
+}
+
+#description-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .6rem 0;
+}
+
+#description{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#details-container #humidity{
+    border-right: 1px solid #fff;
+    margin: .6rem;
+    padding: .6rem;
+}
+
+#loader{
+    margin-top: 30px;
+    margin-left: 50%;
+}
+
+#loader i{
+    animation: rotate 1.5s linear infinite;
+
+}
+
+@keyframes rotate{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+#suggestions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#suggestions button{
+    min-width: 150px;
+    margin: 0.8rem;
+    padding: 0.6rem 0.9rem;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+    opacity: .8;
+    background-color: #5c54ed;
+}
+
+#suggestions button:hover{
+    opacity: 1;
+    background-color: #fdfdfd;
+}
